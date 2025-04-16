@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel ou Tesoura</title>
+    <link rel="stylesheet" href="estilo-jokenpo.css">
+</head>
+<body id="corpo" onload="carregar()">
+    <header>
+        <h1>Vamos jogar Pedra, Papel e Tesoura? </h1>
+    </header>
+    <main>
+
+        <section>
+
+            <a href="#"><input class="botao"  id="pedra" type="button" value="Pedra ✊" onclick="pedra()"></a>
+            <a href="#"><input class="botao" type="button" value="Papel 📄" onclick="papel()"></a>
+            <a href="#"><input class="botao"  type="button" value="Tesoura ✂️" onclick="tesoura()"></a>
+
+            <article id="res">
+                <br>
+                <br>
+                Que tal testar sua sorte?
+                <br>
+                Aposto que consigo ganhar 😎
+                <aside id="mensagem">
+                    
+                </aside>
+            </article>
+            
+            <a href="../index.html"><button id="voltar">Voltar</button></a>
+            <a href="#"><button onclick="limpar()">Limpar</button></a>
+        </section>
+
+    </main>
+    <footer>
+        © William Silva
+    </footer>
+
+    <script src="jo-ken-po.js"></script>
+</body>
+</html>

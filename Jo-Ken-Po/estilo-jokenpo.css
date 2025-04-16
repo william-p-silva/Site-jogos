@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+
+.archivo-black-regular {
+    font-family: "Archivo Black", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right bottom, #10454f, #006e6c, #009870, #5bbf5d, #bde038);
+    
+}
+header{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    min-width: 300px;
+    max-width: 100%;
+    
+
+}
+header > h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+section{
+    background-image: linear-gradient(to left top, #a3ab78, #7d9c7a, #638a7a, #557674, #506266);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    min-width: 300px;
+    max-width: 600px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.548);
+    margin-top: 80px;    
+    padding: 20px 10px 10px 10px;
+}
+
+article{
+    
+    min-width: 250px;
+    max-width: 500px;
+    background-color: rgba(245, 245, 245, 0.76);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 18px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 8px 8px 12px #10454fab;
+    font-size: 20px;
+    min-height: 200px;
+    
+}
+input{
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 8px 8px #10454fa1;
+    border:none;
+    margin: 20px 20px 10px 20px;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 84px;
+    background-color: black;
+    
+    
+}
+a :hover{
+    background-color: #10454F;
+    color:white;
+    
+}
+#res {
+    text-align: center;
+    /*margin-top: 50px;*/
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+
+
+}
+strong{
+    font-size: 40px;
+}
+button{
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 8px 8px #10454f9d;
+    border:none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
