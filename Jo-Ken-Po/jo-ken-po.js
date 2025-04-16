@@ -175,7 +175,7 @@ function carregar(){
 
         body.style.backgroundImage = "linear-gradient(to right bottom, #016a6d, #1f7d69, #4b8d5c, #7c9a4d, #b2a245, #b6a547, #bba849, #bfab4b, #90ab56, #63a66b, #3a9d80, #1b9290)";
 
-    }else if (hora > 12 && hora <= 18){
+    }else if (hora > 12 && hora < 18){
 
         body.style.backgroundImage = "linear-gradient(to left top, #f25116, #e94c1f, #e04826, #d7452c, #cd4230, #cb4a35, #c8513a, #c65840, #cb694b, #d07957, #d58964, #d99873)";
 
