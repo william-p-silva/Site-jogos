@@ -64,6 +64,8 @@ article{
     margin-bottom: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     box-shadow: 8px 8px 12px #10454fab;
     font-size: 20px;
     min-height: 200px;
