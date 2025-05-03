@@ -4,12 +4,7 @@
 
 
 
-.archivo-black-regular {
-    font-family: "Archivo Black", Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+
 
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -17,121 +12,65 @@
     padding: 0;
 }
 body{
-    background-image: linear-gradient(to right bottom, #10454f, #006e6c, #009870, #5bbf5d, #bde038);
-    
+    align-items: center;
 }
-header{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    min-width: 300px;
-    max-width: 100%;
-    
 
+header {
+    position: relative;
+    height: 10vh;
+    background-color: #444;
+    color: white;
+    padding-bottom: 50px;
 }
-header > h1 {
+header > h1{
     text-align: center;
     padding: 10px;
-    font-size: 40px;
+    font-size: 3.8em;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
-    
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.808);
 }
-
-section{
-    background-image: linear-gradient(to left top, #a3ab78, #7d9c7a, #638a7a, #557674, #506266);
-    justify-content: center;
-    border-radius: 10px;
-    margin: auto;
-    text-align: center;
-    min-width: 100px;
-    max-width: 600px;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.548);
-    margin-top: 80px;    
-    padding: 20px 25px 16px 25px;
+nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
 }
-
-article{
-    
-    min-width: 250px;
-    max-width: 500px;
-    background-color: rgba(245, 245, 245, 0.76);
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 18px;
-    margin-top: 15px;
-    margin-bottom: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-shadow: 8px 8px 12px #10454fab;
-    font-size: 20px;
-    min-height: 200px;
-    
-}
-input{
-    padding: 20px;
-    font-size: 16px;
-    border-radius: 25px;
-    box-shadow: 0px 0px 8px 8px #10454fa1;
-    border:none;
-    margin: 20px 20px 10px 20px;
-}
-footer{
-    color: white;
-    text-align: center;
-    margin-top: 84px;
-    background-color: black;
-    
-    
-}
-a :hover{
-    background-color: #10454F;
-    color:white;
-    
-}
-#res {
-    text-align: center;
-    /*margin-top: 50px;*/
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 25px;
-
-
-}
-strong{
-    font-size: 40px;
-}
-button{
-    padding: 20px 30px 20px 30px;
-    margin-bottom: 10px;
-    border: none;
-    font-size: 18px;
-    border-radius: 25px;
-    box-shadow: 0px 0px 8px 8px #10454f9d;
-    border:none;
+.opcoes{
     margin-left: 20px;
-    margin-right: 20px;
+    padding: 5px;
+    border-radius: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+main{
+    position: relative;
+    background-color: aqua;
+    height: 40vh;
+    width: 60vh;
+    margin: 8% auto auto auto;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+main > section{
+    padding: 10px;
+    background-color: brown;
+    height: 100px;
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-align: center;
+    
+    
+}
+section > input{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 8px;
+}
 
 .jogos {
     left: auto;
@@ -182,33 +121,7 @@ button{
 
 
 
-header {
-    position: relative;
-    height: 10vh;
-    background-color: #444;
-    color: white;
-    padding-bottom: 50px;
-}
-header > h1{
-    text-align: center;
-    padding: 10px;
-    font-size: 3.8em;
-    font-family: "Archivo Black", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.808);
-}
-nav {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 10px 20px;
-}
-.opcoes{
-    margin-left: 20px;
-    padding: 5px;
-    border-radius: 8px;
-}
+
 
 
 
