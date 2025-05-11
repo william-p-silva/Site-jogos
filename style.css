@@ -182,7 +182,7 @@ main section h2 {
 
 .news article:hover {
     transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse */
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.349);
 }
 
 .news article h3 {
