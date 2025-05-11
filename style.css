@@ -17,6 +17,7 @@ header {
     background: #28282c;
     color: #fff;
     padding: 1rem 0;
+    padding-bottom: 0.2rem;
     text-align: center;
 }
 
@@ -27,7 +28,7 @@ header h1 {
 /* Navegação */
 nav {
     background: #42414d00;
-    padding: 0.5rem 0;
+    padding: 0.4rem 0;
 }
 
 nav ul {
@@ -67,7 +68,7 @@ nav ul li a:hover::after {
 /* Seção de jogos em destaque */
 main {
     padding: 2rem;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 main section {
@@ -81,7 +82,12 @@ main section h2 {
     margin-top: -2rem;
     margin-bottom: 0.5rem;
 }
-
+#games{
+    height: 90vh;
+    max-width: 600px; /* Define uma largura máxima para os itens */
+    margin: auto;
+    margin-top: 2rem;
+}
 
 .game {
     display: flex;
@@ -139,6 +145,77 @@ main section h2 {
 .game-info a:active {
     transform: scale(0.95);
     background: #1e1e22;
+}
+
+/* Seção de Novidades */
+#noticias {
+    height: 100vh;
+    padding: 2rem 0;
+    margin-bottom: -50px;
+    
+    width: 100%; /* Garante que a seção ocupe toda a largura */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os artigos se ajustem em várias linhas, se necessário */
+    gap: 1.5rem; /* Espaçamento entre os artigos */
+    justify-content: center; /* Centraliza os artigos na seção */
+    max-width: 1200px; /* Define uma largura máxima para os itens */
+    margin: 0 auto; /* Centraliza os itens dentro da seção */
+    display: flex;
+}
+
+.news article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 20px;
+    max-width: 350px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-wrap: wrap; /* Permite que os artigos se ajustem em várias linhas, se necessário */
+}
+
+.news article:hover {
+    transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.news article h3 {
+    font-size: 1.5rem;
+    color: #28282c;
+    margin-bottom: 0.5rem;
+}
+
+.news article p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.news article a {
+    display: inline-block;
+    background: #42414d;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.news article h3 {
+    font-size: 1.5rem;
+    color: #28282c;
+    margin-bottom: 1rem; /* Ajusta o espaçamento para empurrar o título mais para baixo */
+}
+
+.news article a:hover {
+    background: #28282c;
 }
 /* Rodapé */
 footer {
