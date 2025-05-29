@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel e Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site de Jogos</h1>
+        <p>Explore uma coleção de jogos divertidos e interativos em JavaScript!</p>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="games.html">Jogos</a></li>
+                <li><a href="about.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Pedra, Papel e Tesoura</h2>
+                <p>Desfrute do clássico jogo de Pedra, Papel e Tesoura. Escolha sua jogada e veja quem vence!</p>
+                <div id="res">
+                    <h3 id="resultado">654654654</h3>
+
+                </div>
+                <div id="placar">
+                    <p id="placarOponente"></p>
+                    <p><<>></p>
+                    <p id="placarJogado"></p>
+                </div>
+                <div id="game">
+                    <button onclick="pedra()" id="pedra">Pedra</button>
+                    <button onclick="papel()" id="papel">Papel</button>
+                    <button onclick="tesoura()" id="tesoura">Tesoura</button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
